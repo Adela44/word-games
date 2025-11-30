@@ -14,9 +14,7 @@ cherimoya
 cherry
 coconut
 cranberry
-custardapple
 date
-dragonfruit
 durian
 elderberry
 feijoa
@@ -26,7 +24,6 @@ grape
 grapefruit
 guava
 honeydew
-hornedmelon
 jackfruit
 jujube
 kiwi
@@ -42,7 +39,6 @@ nectarine
 olive
 orange
 papaya
-passionfruit
 peach
 pear
 pineapple
@@ -53,14 +49,11 @@ raspberry
 raisin
 rambutan
 redcurrant
-starapple
 strawberry
 tangerine
-uglifruit
 watermelon
 quince
 longan
 persimmon
 sapodilla
 soursop
-cactuspear

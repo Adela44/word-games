@@ -26,6 +26,5 @@ mandarin
 avocado
 cantaloupe
 guava
-passionfruit
 date
-figgra
+fig
