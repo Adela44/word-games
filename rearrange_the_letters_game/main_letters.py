@@ -3,6 +3,7 @@ import threading
 import queue
 import time
 import os
+import sys # sys.exit(1) instead of exit()
 
 """
 checklist of what to improve:
@@ -19,8 +20,8 @@ def load_dictionary(file_path):
             words = [line.strip() for line in f]
         return words
     except FileNotFoundError:
-        print("File not found")
-        exit()
+        print(f"Error: The file '{file_path}' was not found")
+        sys.exit(1) # exit with status 1 - indicating an error
 
 def shuffle_word(word):
     char_list = list(word)
