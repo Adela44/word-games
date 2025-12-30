@@ -25,7 +25,7 @@ def shuffle_word(word):
 
 #if guess exists in the word list and has the same letters as the original
 def unscramble(words):
-    print("This is Word Scramble! You have 3 chances to rearrange the letters to form the correct word")
+    print("This is Word Scramble! You have 3 chances to guess the correct word")
     secret_word = random.choice(list(words.keys()))
 
     print("The shuffled word is: ", shuffle_word(secret_word))
@@ -35,7 +35,8 @@ def unscramble(words):
     while attempts <= max_attempts:
         guess = input("Enter Guess #" + str(attempts) + ": ").lower()
         if guess == secret_word:
-            print("Congratulations, you guessed the anagram!")
+            print("Congratulations, you guessed it!")
+            break
         attempts = attempts + 1
     if attempts > max_attempts:
         print("Too many attempts, the correct word was:", secret_word)
