@@ -14,7 +14,7 @@ A collection of wordle-inspired games that run in your terminal.
 ## Gameplay Example
 Here is what the "Guess the Fruit" mode looks like:
 
-![gameplay_fruit.png](gameplay_fruit.png)
+<img src="gameplay_fruit.png" alt="Gameplay" width="450">
 
 ## Rules & Colors
 
