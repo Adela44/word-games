@@ -32,7 +32,7 @@ def missing_letters(guesses):
     while attempts <= max_attempts:
         guess = input("Enter Guess #" + str(attempts) + ": ").lower() #makes the letter lowercase
         if guess not in guesses:
-            print("Invalid guess. Please enter a valid 6-letter-word or a more common one")
+            print("Invalid guess or not in the list. Please enter a valid 6-letter-word")
         if guess == target_word: # the correct guess
             print("You guessed the word! Congratulations! ",target_word)
             break
