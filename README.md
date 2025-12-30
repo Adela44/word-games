@@ -12,9 +12,13 @@ A collection of wordle-inspired games that run in your terminal.
 5.  **Missing Letters**: Given a 6-letter word with 2 random letters missing, guess the original form
 
 ## Gameplay Example
-Here is what the "Guess the Fruit" mode looks like:
+Guess the Fruit:
 
 <img src="gameplay_fruit.png" alt="Gameplay" width="450">
+
+Anagram Finder: 
+
+<img src="gameplay_anagram_finder.png" alt="Gameplay" width="450">
 
 ## Rules & Colors
 
