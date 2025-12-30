@@ -1,7 +1,7 @@
 
 ## Python Word Games
 
-A collection of word games that run in your terminal.
+A collection of guess-the-word games that run in your terminal.
 
 ### The Games
 
